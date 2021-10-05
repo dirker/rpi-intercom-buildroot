@@ -1,0 +1,7 @@
+config BR2_PACKAGE_PYTHON_PYSDL2
+	bool "python-pysdl2"
+	depends on BR2_PACKAGE_SDL2 
+	help
+	  Python SDL2 bindings.
+
+	  https://github.com/marcusva/py-sdl2
