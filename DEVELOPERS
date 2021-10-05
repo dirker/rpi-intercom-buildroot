@@ -702,6 +702,7 @@ F:	support/testing/tests/boot/test_edk2.py
 
 N:	Dirk Hoerner <dirker@gmail.com>
 F:	package/python-evdev/
+F:	package/python-opuslib/
 F:	package/python-pysdl2/
 
 N:	Dimitrios Siganos <dimitris@siganos.org>
