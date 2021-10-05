@@ -700,6 +700,9 @@ F:	package/s6/
 F:	package/skalibs/
 F:	support/testing/tests/boot/test_edk2.py
 
+N:	Dirk Hoerner <dirker@gmail.com>
+F:	package/python-evdev/
+
 N:	Dimitrios Siganos <dimitris@siganos.org>
 F:	package/wireless-regdb/
 
