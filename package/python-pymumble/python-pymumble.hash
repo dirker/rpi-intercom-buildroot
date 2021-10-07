@@ -1,0 +1,5 @@
+# md5, sha256 from https://pypi.org/pypi/pymumble/json
+md5  04605abf060c24c3879dd565b7710359  pymumble-1.6.1.tar.gz
+sha256  c17300413dbf2d754a8b1edf0bb599320bc50bc31b799fc8c91ce1d4ca6774fa  pymumble-1.6.1.tar.gz
+# Locally computed sha256 checksums
+sha256  321429c853d59b621414832581e93ff38586c348aa2de43c7e571b33423d670a  LICENSE

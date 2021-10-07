@@ -1,0 +1,9 @@
+config BR2_PACKAGE_PYTHON_PYMUMBLE
+	bool "python-pymumble"
+	select BR2_PACKAGE_PYTHON_OPUSLIB # runtime
+	select BR2_PACKAGE_PYTHON_PROTOBUF # runtime
+	help
+	  Mumble library used for multiple uses like making mumble
+	  bot.
+
+	  https://github.com/azlux/pymumble
