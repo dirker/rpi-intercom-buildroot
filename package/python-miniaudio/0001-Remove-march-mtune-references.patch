@@ -1,0 +1,25 @@
+From e1df994da50edb1cbbfefb08dac8006ad0859e5e Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Dirk=20H=C3=B6rner?= <dirker@gmail.com>
+Date: Wed, 1 Dec 2021 21:47:30 +0100
+Subject: [PATCH] Remove march/mtune references
+
+---
+ build_ffi_module.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/build_ffi_module.py b/build_ffi_module.py
+index 41d2e68..712534d 100644
+--- a/build_ffi_module.py
++++ b/build_ffi_module.py
+@@ -799,7 +799,7 @@ if os.name == "posix":
+     elif "ppc64" in platform.system():
+         compiler_args += ["-mcpu=native"]
+     else:
+-        compiler_args += ["-mtune=native", "-march=native"]
++        compiler_args += []
+ 
+ 
+ ffibuilder.set_source("_miniaudio", """
+-- 
+2.34.0
+

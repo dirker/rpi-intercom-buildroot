@@ -1,0 +1,5 @@
+# md5, sha256 from https://pypi.org/pypi/miniaudio/json
+md5  625bb04f571b555f69769da76dfad8a4  miniaudio-1.45.tar.gz
+sha256  793d78d0e64a0100f25c30f548f54ac678766106366a500d5cf9e6315ea73199  miniaudio-1.45.tar.gz
+# Locally computed sha256 checksums
+sha256  3e793d703da08a12a501ff6e7d5767d0af9adaa423154755300af2fcdbab7677  LICENSE
